@@ -1,0 +1,286 @@
+/* CSS tags */
+h1, h2, h3{
+   padding: 0rem 2rem 0 2rem;
+   color: white !important;
+   font-weight: 600 !important;
+}
+
+a{
+   color:black !important;
+   text-decoration: none !important;
+}
+
+body{
+   font-family: 'Poppins', sans-serif !important;   
+   text-align: center !important;
+   min-height: 100vh;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 7rem;    /* Footer height */
+}
+
+#footer {
+   padding-top: 1rem;
+   background-color: #eeeeeec5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7rem;            /* Footer height */
+}
+
+/* CSS classes */
+
+.hello{
+   font-family: 'Knewave', cursive;
+   font-size: 80px;
+   color: #ffc857;
+  
+}
+.container-fluid{
+   padding: 0 !important;
+}
+.navbar-brand{
+   font-family: 'Lobster', cursive !important;
+   font-size: 30px !important;
+   color: #525252 !important;
+   letter-spacing: 2px;
+}
+
+.nav-link{
+   color: #525252 !important;
+}
+
+.nav-link:hover{
+   opacity: 0.4;
+}
+
+.navbar{
+   padding: 0.5rem 1.5rem;
+   margin: 0;
+   width: 100%;
+}
+
+.wrapper-img-form, .about-body{
+   background-image: linear-gradient( #eeeeee, #525252 );
+}
+.wraph2{
+   color: white !important;
+   font-size: 50px !important;
+   letter-spacing: 3px;
+   font-weight: 600 !important;
+}
+#dogandcat{
+   text-align: center;
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.form-container{
+   padding: 5rem 0rem;
+   position: relative;
+}
+
+.btn-find, .btn-findAll{
+   padding: 2rem;
+   margin: 1rem 0.5rem;
+   width: 140px;
+   height: 50px;
+   font-size: 22px !important;
+   transition: transform 0.5s;
+   color: white !important;
+   font-weight: 600 !important;
+   border-radius: 30px !important;
+}
+
+.btn-find, .btn-log{
+   background-color: #ffc857 !important;
+}
+
+.btn-findAll{
+   background-color: #d9ae94 !important;
+}
+
+.btn-find:hover, .btn-findAll:hover, .btn-log:hover{
+   transform: scale(1.1);
+ }  
+
+
+.btn-sub{
+   cursor: pointer;
+   transition: all .4s;
+   background-color: #d9ae94 !important;
+   color: rgba(253, 253, 253, 0.863) !important;
+   border-radius: 30px !important;
+}
+.btn-sub:hover{
+   border-radius: 35px;
+   color:rgb(255, 255, 255) !important;
+   font-weight: 700;
+   transform: translateY(-10px);
+   box-shadow: 0 7px 0 -2px #52525280,
+   0 12px 0 -4px #ffc75754;
+}
+
+.follow{
+   padding-bottom: 0;
+}
+.logo-soc{
+   width: 2.5rem;
+   padding: 2px 7px 2px 7px;
+}
+
+.search-form{
+   font-size: 24px;
+   width: auto;
+   position: relative;
+   color: white;
+}
+
+.loc{
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.subscribe-container{
+   padding: 3rem;
+}
+
+.pawicon{
+   height: 3rem;
+}
+
+#subscribe-input, .input-loc{
+   border-bottom: #525252 !important;
+   background-color: #eeeeeec5;
+   padding: 0.3rem;
+   border-style: none !important;
+   border-radius: 30px;
+   overflow: hidden;
+}
+
+.input-loc::placeholder{
+   font-size: 16px;
+   padding-left: 1rem;
+   text-align: left;
+}
+
+.featured-img{
+   height: 250px;
+   width: 300px;
+   border-radius: 100px !important;
+}
+.heading-featured{
+   font-size: 50px;
+   letter-spacing: 10px;
+   font-weight: bolder !important;
+   padding: 3rem 3rem 1rem 3rem;
+
+}
+.card{
+   padding: 1rem;
+   background-color: rgba(245, 245, 245, 0.322) !important;
+   position: relative;
+   border-radius: 100px !important;
+   
+}
+.carousel-control-prev-icon{
+   margin-right: 4rem;
+}
+.carousel-control-next-icon{
+   margin-left: 4rem;
+}
+
+.featured-pets{
+   padding: 2rem 6rem 2rem 6rem;
+}
+.pets, .login-body{
+   background-image: url("../images/cat-help.png");
+   margin: 0;
+   width: 100% !important;
+   background-position: absolute;
+   background-repeat:round;
+}
+
+.nl-sign{
+   color: #545454 !important;
+}
+.col:hover{
+   transform: scale(1.1);
+}
+.col{
+   box-sizing:border-box;
+}
+
+.row{
+   margin-right: 0 !important;
+   position: relative;
+}
+.cp-p{
+   margin-bottom: 0rem;
+   padding-bottom: 1rem;
+}
+/* LOGIN PAGE */
+
+.login-body{
+   margin: 0;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   color: white !important;
+   overflow: hidden;
+   background-image: url("../images/cat-help.png");
+}
+
+.h1-log{
+   padding-top: 2rem;
+   font-weight: 650 !important;
+   color: white !important;
+   letter-spacing: 2px;
+}
+
+.span-lg{
+   font-weight: 500;
+}
+
+.inp{
+   margin: 10px 0;
+   padding: 10px;
+   border-radius: 20px;
+   border: 1px solid white;
+   border-left: 2px;
+   border-right: 2px;
+   width: 250px;
+   outline: none;
+   color: white;
+   background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.inp::placeholder{
+   color: rgb(240, 240, 240);
+}
+.btn-log{
+   padding-bottom: 1rem;
+   margin: 1rem 0.5rem;
+   width: 110px;
+   height: 40px;
+   font-size: 16px !important;
+   transition: transform 0.5s;
+   color: white !important;
+   font-weight: 600 !important;
+   border-radius: 30px !important;
+   text-align: center;
+}
+
+.signup{
+   color: #ffc857 !important;
+   font-weight: 600;
+}
+

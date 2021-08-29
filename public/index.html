@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Meet and adopt!</title>
+    <link rel="icon" href="images/paw.png">
+
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">    <!--Bootstrap5 Stylesheets-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="page-container">
+<div id="content-wrap">
+<header> 
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"> <img src="images/paw.png" alt="" width="45" height="39"> meet&adopt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="window.open('/')">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="" onclick='window.open("/login", "Login Page", "height=600, width=500")'>Login</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact us</a></li>
+        </ul>
+      </div>
+            
+    </nav>
+  </div>
+</header>
+    <div class="heading-container">
+  </div>
+    <div class="row wrapper-img-form">  
+      <div class="img-container col-lg-7 col-md-12 col-sm-12">
+      <img src="images/cat-dog.png" alt="" id="dogandcat">
+      </div>
+      <div class="form-container col-lg-5 col-md-12 col-sm-12">
+        <form action="" class="search-form">
+          <h2 class="wraph2">SEARCH FOR PETS NEAR YOU</h2>
+        </br>
+          <span class="loc">Location: </span>
+          <input class="input-loc" type="text" placeholder="What is your location?">
+      </br>
+          <input type="checkbox" class="pet-option" id="cat-search" name="cat-search" value="Cat">
+          <label for="cat-search"> Cat<img id="cat-icon" src="images/kitty.png" style="width: 30px; display: none;" alt=""></label>
+          <input type="checkbox" class="pet-option" id="dog-search" name="dog-search" value="Dog">
+          <label for="dog-search"> Dog<img id="dog-icon" src="images/pet.png" style="width: 30px; display: none;" alt=""></label><br>
+          <button type="submit" class="btn btn-find">Find me!</button>
+          <button type="submit" class="btn btn-findAll">See All</button>
+        </form>
+      </div>
+      <div style="clear: both;" > </div>
+      <span class="hello">FIND THE RIGHT PET FOR YOU! </span>
+      <h3>Hello, there are planty of pets looking for a home and friend. Take a look and contact us for more details </h3>
+
+    </div>
+
+<div class="pets"></br>
+  <h2 class="heading-featured">FEATURED PETS</h2> 
+<div id="myCarousel" class="featured-pets carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+
+<div class="card-group row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card col">
+      <img src="images/dog2.png" class="card-img-top featured-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bella</h5>
+        <p class="card-text"><a href="">Click here to find out more</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card col">
+      <img src="images/dog3.jpg" class="card-img-top featured-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Simba</h5>
+        <p class="card-text"><a href="">Click here to find out more</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card col">
+      <img src="images/cat1.jpg" class="card-img-top featured-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Paul</h5>
+        <p class="card-text"><a href="">Click here to find out more</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card col">
+      <img src="images/cat2.jpg" class="card-img-top  featured-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Matilda</h5>
+        <p class="card-text"><a href="">Click here to find out more</a> </p>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+</div>
+<div class="carousel-item">
+  <div class="card-group row">
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="card col">
+        <img src="images/dog1.jpg" class="card-img-top featured-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blake</h5>
+          <p class="card-text"><a href="">Click here to find out more</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="card col">
+        <img src="images/cat3.jpg" class="card-img-top featured-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sarah</h5>
+          <p class="card-text"><a href="">Click here to find out more</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="card col">
+        <img src="images/cat4.jpg" class="card-img-top featured-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mici</h5>
+          <p class="card-text"><a href="">Click here to find out more</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="card col">
+        <img src="images/dog4.jpg" class="card-img-top featured-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jack</h5>
+          <p class="card-text"><a href="">Click here to find out more</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="subscribe-container">
+  <form class="form-news" method="post" action="/">
+    <h3 class="nl-sign">Newsletter sign up <img class="pawicon" src="images/pawicon.png" alt="paw"></h3>
+    <label for="subscribe-input">Email:</label>
+    <input name="email" id="subscribe-input" type="text" placeholder="ex. ana@mail.com"> 
+    <button id="buttonSub" class="btn btn-light btn-sub" type="button">Subscribe me!</button>
+    <p id="sub-p"></p>
+  </form>
+</div>
+</div>
+
+<footer id="footer">
+  
+  <div>
+    <p class="follow">Follow us on our social media! ♥</p>
+    <a href="www.instagram.com"><img class="logo-soc" src="images/instagram.png" alt="instagram-icon"></a><a href="facebook.com"><img class="logo-soc" src="images/facebook.png" href="https://www.facebook.com" alt="facebook-icon"></a>
+    <p class="cp-p">©2021 mpestoric</p>
+    </div>
+</footer>
+</div>  
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
